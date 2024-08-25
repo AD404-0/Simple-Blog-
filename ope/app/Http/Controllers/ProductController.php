@@ -50,6 +50,7 @@ class ProductController extends Controller
         }
 
 
+        // Update the product
         public function update(Request $request, $id)
         {
             $product = Product::find($id);
